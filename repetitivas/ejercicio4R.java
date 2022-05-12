@@ -13,7 +13,7 @@ public class ejercicio4R {
         System.out.println("ingrese su nombre");
         String nombre=it.next();
 
-        for (int i = 0; i < nombre.length(); i++) {
+        for (int i = nombre.length()-1; i >=0;i--) {
             System.out.println(nombre.charAt(i));
 
         }
