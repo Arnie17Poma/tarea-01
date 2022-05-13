@@ -30,18 +30,12 @@ public class numero01 {
         */
         if (promedio>=17 && promedio<=20) {
             estado="nivel 4";
-            
-
         }else if (promedio<17 && promedio>=14) {
             estado="nivel 3";
-            
-
         }else if (promedio<14 && promedio>=11) {
             estado="nivel 2";
-            
         }else{
             estado="desaprobado";
-            
         }
         //datos de salida
         System.out.println(estado);
